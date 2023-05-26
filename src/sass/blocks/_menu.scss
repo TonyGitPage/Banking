@@ -1,0 +1,41 @@
+.menu {
+    padding: 35px 150px 0 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $backgroundColor;
+    ul {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    &__login {
+        display: flex;
+        align-items: center;
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+            text-decoration: none;
+        }
+        &-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            width: 120px;
+            height: 35px;
+            background: #1B1B1B;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+    }
+}

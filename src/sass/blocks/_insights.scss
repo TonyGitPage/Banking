@@ -1,0 +1,104 @@
+.insights {
+    padding-top: 65px;
+    background: $backgroundColor;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 547px 561px;
+        justify-content: space-between;
+    }
+    &__block {
+        margin-top: 63px;
+    }
+    &__head {
+        margin: 0;
+    }
+    &__title {
+        width: 437px;
+        margin: 56px 0 0 0;
+        text-align: start;
+        color: #000;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        text-align: start;
+        width: 100%;
+    }
+    &__info {
+        width: 466px;
+        margin-top: 68px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 175px);
+        grid-template-rows: 97px;
+        grid-auto-rows: 97px;
+        row-gap: 62px;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    &__item {
+        &-number1 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            span {
+                color: #F70001;
+            }
+        }
+        &-number2 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            span {
+                color: #4FC553;
+            }
+        }
+        &-number3 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            span {
+                color: #F7B702;
+            }
+        }
+        &-number4 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            span {
+                color: #0082F0;
+            }
+        }
+        &-descr {
+            margin-top: 8px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    &__photo {
+        position: relative;
+        &-mane {
+            img {
+                height: 743px;
+                border-radius: 0px 139px 0px 28px;
+                object-fit: cover;
+            }
+        }
+        &-review1 {
+            position: absolute;
+            top: 44px;
+            left: -225px;
+            img {
+                height: 75px;
+                border-radius: 105px;
+            }
+        }
+        &-review2 {
+            position: absolute;
+            bottom: 89px;
+            right: 308px;
+            img {
+                height: 89px;
+                border-radius: 71px;
+            }
+        }
+    }
+}

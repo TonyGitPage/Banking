@@ -1,0 +1,79 @@
+.app {
+    padding-top: 95px;
+    background: $backgroundColor;
+    &__title {
+        width: 740px;
+        padding-top: 47px;
+    }
+    &__subtitle {
+        padding-top: 23px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    &__btn {
+        width: 280px;
+        height: 45px;
+        margin: 36px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-first {
+            width: 130px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #090909;
+            border-radius: 5px;
+            color: #fff;
+        }
+        &-second {
+            width: 130px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+        }
+    }
+    &__block {
+        position: relative;
+        margin-top: 90px;
+        &-mane {
+            position: relative;
+            margin: 0 auto;
+            width: 890px;
+            height: 579px;
+        }
+        &-account {
+            position: absolute;
+            right: -10px;
+            top: -120px;
+        }
+        &-review1 {
+            position: absolute;
+            left: 30px;
+            top: 30px;
+        }
+        &-review2 {
+            position: absolute;
+            right: -10px;
+            bottom: 25px;
+        }
+    }
+    &__trust {
+        padding-top: 114px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            margin-right: 112px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    } 
+}
